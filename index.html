@@ -18,6 +18,12 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+<!-- swiper cdn -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg  navbar-dark bg-transparent sticky-top">
@@ -31,16 +37,16 @@
         <div class="collapse navbar-collapse">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item mx-3">
-              <a href="" class="nav-link normal text-white">Home</a>
+              <a href="" class="nav-link normal text-white fs-5">Home</a>
             </li>
             <li class="nav-item mx-3">
-              <a href="" class="nav-link normal text-white">About</a>
+              <a href="" class="nav-link normal text-white fs-5">About</a>
             </li>
             <li class="nav-item mx-3">
-              <a href="" class="nav-link normal text-white">Cars</a>
+              <a href="" class="nav-link normal text-white fs-5">Cars</a>
             </li>
             <li class="nav-item mx-3">
-              <a href="" class="nav-link normal text-white">Contact</a>
+              <a href="" class="nav-link normal text-white fs-5">Contact</a>
             </li>
           </ul>
 
@@ -226,19 +232,238 @@
           </div>
          </div>
          </div>
-
     </section>
 
-    </div>
+    <section class="bg-car ">
+      <div class="bg-overlay">
+        <div class="container">
+          <div class="row ">
+            <div class="col-md-12 d-flex align-items-center justify-content-center flex-column innersec">
+              <span class="text-white">RENT NOW</span>
+              <h3 class="text-white mt-2">Book Auto Rental</h3>
+  
+              <div class="input-group my-3">
+                <select name=""
+                  class="form-select form-select-lg bg-trans text-light small p-4 rounded-start-pill position-relative dropicon">
+  
+                  <option value="">Choose car Type</option>
+                  <option value="">Sports</option>
+                  <option value="">Vintage</option>
+                  <option value="">Premium</option>
+                </select>
+                <select name="" class="form-select form-select-lg bg-trans text-light small p-4">
+                  <option value="">Pick up location</option>
+                  <option value="">Nashik</option>
+                  <option value="">Pune</option>
+                  <option value="">Mumbai</option>
+                </select>
+                <input type="date" class="form-control form-control-lg small bg-trans text-light p-4"
+                  placeholder="pick up date">
+                <select name="" class="form-select form-select-lg bg-trans text-light small p-4">
+                  <option value="">Drop off location</option>
+                  <option value="">Choose car Type</option>
+                  <option value="">Choose car Type</option>
+                  <option value="">Choose car Type</option>
+                </select>
+                <input type="date" class="form-control form-control-lg small bg-trans text-light p-4 rounded-end-pill"
+                  placeholder="Return date">
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </section>
 
+    <section>
+      <div class="container text-light py-5">
+        <h1 class="text-white text-center mt-3">Contact US</h1>
+          <div class="d-flex  justify-content-center ">
+
+            <div>
+              <img src="./asset/img/bg-contactus.jpg" class="img-fluid mt-2 rounded-2 bg-contact"  />
+            </div>
+            <div >
+              <div class="d-flex ms-4">
+                <div class="">
+                  <label for="exampleInputEmail1" class="form-label mt-3 ">Name:</label>
+                  <input type="email" class="form-control px-5 mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+                </div>
+        
+                <div class="">
+                  <label for="exampleInputEmail1" class="form-label ms-5 mt-3">Email:</label>
+                  <input type="email" class="form-control ms-5 px-5 mx-1" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+      
+              </div>
+
+              <div class="">
+                <label for="exampleInputEmail1" class="form-label ms-4  mt-2">Email:</label>
+                <input type="email" class="form-control ms-4 px-5" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+              </div>
+              <label class="ms-4 mt-2">Meassage:</label>
+              <div class="form-floating mt-4 ms-4">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                <label for="floatingTextarea">Comments</label>
+              </div>
+              <div class="d-grid gap-2">
+                <button class="btn btn-warning ms-4 mt-3" type="button">Submit</button>
+              
+              </div>
+            </div>
+           </div>
+           
+      </div>
+    </section>
+   
+    
+
+    <div>
+      <section class="testimonials bg-dark  p-5  text-white">
+        <div class="container">
+          <div class="section-header">
+            <div class="title text-center display-4">
+              what Our Client Says
+            </div>
+            <div class="testimonial-content">
+              <div class="swiper testimonial-slider js-testimonial-slider">
+                <div class="swiper-wrapper">
+                  <div class="testimonial-item swiper-slide">
+                    <div class="info">
+                      <img src="./asset/img/cargirls.jpg" height="80px"/>
+                      <div class="text-box">
+                        <h3>john doe</h3>
+                      </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, placeat nesciunt obcaecati iure distinctio fuga ipsa eligendi adipisci numquam eaque odio, vel libero facilis quia reiciendis dolor veritatis omnis maxime?</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="testimonial-item swiper-slide">
+                    <div class="info">
+                      <img src="./asset/img/cargirls.jpg" height="80px"/>
+                      <div class="text-box">
+                        <h3>john doe</h3>
+                      </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, placeat nesciunt obcaecati iure distinctio fuga ipsa eligendi adipisci numquam eaque odio, vel libero facilis quia reiciendis dolor veritatis omnis maxime?</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                  <div class="testimonial-item swiper-slide">
+                    <div class="info">
+                      <img src="./asset/img/cargirls.jpg" height="80px"/>
+                      <div class="text-box">
+                        <h3>john doe</h3>
+                      </div>
+                    </div>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, placeat nesciunt obcaecati iure distinctio fuga ipsa eligendi adipisci numquam eaque odio, vel libero facilis quia reiciendis dolor veritatis omnis maxime?</p>
+                    <div class="rating">⭐⭐⭐⭐⭐</div>
+                  </div>
+                </div>
+  
+             
+              </div> 
+            </div>
+            <div class="swiper-pagination js-testimonials-pagination"></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <div>
+      <footer class="bg-dark text-white text-center text-lg-start">
+        <!-- Grid container -->
+        <div class="container p-4">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+              <a href="" class="navbar-brand text-white x-big fw-semibold">
+                <span class="text-main x-big fw-semibold">R</span>entals
+              </a>
+      
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
+                voluptatem veniam, est atque cumque eum delectus sint!
+              </p>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase">Links</h5>
+      
+              <ul class="list-unstyled mb-0">
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Home</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">About</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white text-decoration-none">Testimonials</a>
+                </li>
+              </ul>
+            </div>
+            <!--Grid column-->
+      
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h5 class="text-uppercase mb-0">Address</h5>
+              <p> Commodi dolores, delectus error quasi quisquam nemo laudantium autem magni saepe, cum consequatur totam est quaerat fuga hic fugit velit similique illum!</p>
+      
+            
+            </div>
+              <!--Grid column-->
+          </div>
+         
+        </div>
+       
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2024 Copyright:
+         
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    </div>
+   
+</div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+  <!-- swiper script -->
+
+<script>
+  const swiper = new Swiper('.js-testimonial-slider', {
+    grabCursor: true,
+    spaceBetween: 30,
+    pagination: {
+        el: ".js-testimonials-pagination",
+        clickable: true
+    },
+
+    breakpoints: {
+        767: {
+            slidesPerView: 3 // corrected typo here
+        }
+    }
+});
+
+</script>
   </body>
 </html>
